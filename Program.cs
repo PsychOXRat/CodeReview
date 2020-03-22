@@ -31,16 +31,19 @@ namespace OOPCodeReview
                 //Each case relates to each option number
                 case "1":
                     Console.WriteLine("Comparing 1a and 1b");
+                    //Calls the function that compares both arrays
                     comp.IsSame(fr.file1a, fr.file1b);
                     break;
 
                 case "2":
                     Console.WriteLine("Comparing 2a and 2b");
+                    //Calls the function that compares both arrays
                     comp.IsSame(fr.file2a, fr.file2b);
                     break;
 
                 case "3":
                     Console.WriteLine("Comparing 3a and 3b");
+                    //Calls the function that compares both arrays
                     comp.IsSame(fr.file3a, fr.file3b);
                     break;
             }
